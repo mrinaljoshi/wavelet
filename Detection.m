@@ -5,11 +5,11 @@
 %D1 C1 C3 B3 
 
 %%for illustration
-A = double(1 -(im2bw(rgb2gray(imread('C:\Users\Mrinal\Downloads\Old asgns\Old asgns\Wavlet\Project\Pictures\A1.jpg')),0.8)));
+A = double(1 -(im2bw(rgb2gray(imread('..path\A1.jpg')),0.8)));
 [f_vect] = feature_vector(A);
 
 %%testing image
-A = double(1 -(im2bw(rgb2gray(imread('C:\Users\Mrinal\Downloads\Old asgns\Old asgns\Wavlet\Project\Pictures\E.jpg')),0.8)));
+A = double(1 -(im2bw(rgb2gray(imread('..path\E.jpg')),0.8)));
 [f_vect] = feature_vector(A);
 fvec_test = zeros(4,302);
 
